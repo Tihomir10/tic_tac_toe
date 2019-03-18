@@ -1,0 +1,50 @@
+html, body {
+  min-height: 100%;
+  min-width: 100%;
+  margin: 0;
+}
+
+#gameboard {
+  width: 306px;
+  height: 306px;
+  margin: 0 auto;
+}
+
+.griditem {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  float: left;
+  text-align: center;
+  line-height: 1.35;
+  font-size: 75px;
+}
+
+.players {
+  display: flex;
+  justify-content: space-around;
+  margin: 35px;
+}
+
+.players input {
+  border: 1px solid;
+  border-radius: 3px;
+  padding-left: 5px
+}
+
+#mess {
+  text-align: center;
+  font-size: 25px;
+}
+
+#message {
+  margin: 20px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  height: 35px;
+  width: 75px;
+}
